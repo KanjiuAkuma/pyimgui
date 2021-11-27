@@ -109,7 +109,7 @@ class PygameRenderer(FixedPipelineRenderer):
 
             io.key_super = (
                 io.keys_down[self._custom_key(pygame.K_LSUPER)] or
-                io.keys_down[self._custom_key(pygame.K_LSUPER)]
+                io.keys_down[self._custom_key(pygame.K_RSUPER)]
             )
             
             return True
